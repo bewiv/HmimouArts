@@ -1,0 +1,181 @@
+﻿/* #Base 960 Grid
+================================================== */
+
+    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .column, .columns                           { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .page-with-sidebar                          { float: left; display: inline; width: 720px; }
+    .row                                        { margin-bottom: 20px; }
+
+    /* Nested Column Classes */
+    .column.alpha, .columns.alpha               { margin-left: 0; }
+    .column.omega, .columns.omega               { margin-right: 0; }
+
+    /* Base Grid */
+    .container .one.column                      { width: 60px;  }
+    .container .two.columns                     { width: 140px; }
+    .container .three.columns                   { width: 220px; }
+    .container .four.columns                    { width: 300px; }
+    .container .five.columns                    { width: 380px; }
+    .container .six.columns                     { width: 460px; }
+    .container .seven.columns                   { width: 540px; }
+    .container .eight.columns                   { width: 620px; }
+    .container .nine.columns                    { width: 700px; }
+    .container .ten.columns                     { width: 780px; }
+    .container .eleven.columns                  { width: 860px; }
+    .container .twelve.columns                  { width: 940px; }
+
+    /* Offsets */
+    .container .offset-by-one                   { padding-left: 80px;  }
+    .container .offset-by-two                   { padding-left: 160px; }
+    .container .offset-by-three                 { padding-left: 240px; }
+    .container .offset-by-four                  { padding-left: 320px; }
+    .container .offset-by-five                  { padding-left: 400px; }
+    .container .offset-by-six                   { padding-left: 480px; }
+    .container .offset-by-seven                 { padding-left: 560px; }
+    .container .offset-by-eight                 { padding-left: 640px; }
+    .container .offset-by-nine                  { padding-left: 720px; }
+    .container .offset-by-ten                   { padding-left: 800px; }
+    .container .offset-by-eleven                { padding-left: 880px; }
+
+    /* Page with sidebar */
+    .container .page-with-sidebar .three.columns                   { width: 160px; }
+    .container .page-with-sidebar .four.columns                    { width: 220px; } /* same as 3 col */
+    .container .page-with-sidebar .six.columns                     { width: 340px; }
+    .container .page-with-sidebar .eight.columns                   { width: 460px; } /* same as 6 col */
+    .container .page-with-sidebar .nine.columns                    { width: 520px; }
+    .container .page-with-sidebar .twelve.columns                  { width: 700px; } /* same as 9 col */
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Links
+	#Images
+	#Tabs
+	#Forms
+	#Misc */
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Basic Styles
+================================================== */
+body {
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+ }
+
+/* #Links
+================================================== */
+	p a, p a:visited { line-height: inherit; }
+
+
+/* #Images
+================================================== */
+
+	img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+
+/* #Forms
+================================================== */
+
+	form {
+		margin-bottom: 20px; }
+	fieldset {
+		margin-bottom: 20px; }
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		padding: 6px 4px;
+		outline: none;
+		margin: 0;
+		display: block;
+		margin-bottom: 20px;}
+	select {
+		padding: 0; }
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {border: 1px solid #aaa;}
+	textarea {
+		min-height: 60px; }
+	label,
+	legend {
+		display: block;
+		font-weight: bold;
+		font-size: 13px;  }
+	select {
+		width: 220px; }
+	input[type="checkbox"] {
+		display: inline; }
+	label span,
+	legend span {
+		font-weight: normal;
+		font-size: 13px;}
+
+/* #Misc
+================================================== */
+	.remove-bottom { margin-bottom: 0 !important; }
+	.half-bottom { margin-bottom: 10px !important; }
+	.add-bottom { margin-bottom: 20px !important; }

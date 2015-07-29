@@ -1,0 +1,614 @@
+﻿/* #Biggest size 1440px
+================================================== */
+
+    /* Note: Design for a width of 1440px */
+
+    @media only screen and (min-width: 1500px) {
+        .container                                  { width: 1440px; }
+        .container .column,
+        .container .columns                         { margin-left: 20px; margin-right: 20px;  }
+        .container .page-with-sidebar               { float: left; display: inline; width: 1080px; }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 20px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 20px; }
+
+        .container .one.column                      { width: 80px; }
+        .container .two.columns                     { width: 200px; }
+        .container .three.columns                   { width: 320px; }
+        .container .four.columns                    { width: 440px; }
+        .container .five.columns                    { width: 560px; }
+        .container .six.columns                     { width: 680px; }
+        .container .seven.columns                   { width: 800px; }
+        .container .eight.columns                   { width: 920px; }
+        .container .nine.columns                    { width: 1040px; }
+        .container .ten.columns                     { width: 1160px; }
+        .container .eleven.columns                  { width: 1280px; }
+        .container .twelve.columns                  { width: 1400px; }
+
+        /* Offsets */
+        .container .offset-by-one                   { padding-left: 120px; }
+        .container .offset-by-two                   { padding-left: 240px; }
+        .container .offset-by-three                 { padding-left: 360px; }
+        .container .offset-by-four                  { padding-left: 480px; }
+        .container .offset-by-five                  { padding-left: 600px; }
+        .container .offset-by-six                   { padding-left: 720px; }
+        .container .offset-by-seven                 { padding-left: 840px; }
+        .container .offset-by-eight                 { padding-left: 960px; }
+        .container .offset-by-nine                  { padding-left: 1080px; }
+        .container .offset-by-ten                   { padding-left: 1200px; }
+        .container .offset-by-eleven                { padding-left: 1320px; }
+
+        /* Page with sidebar */
+        .container .page-with-sidebar .three.columns                   { width: 230px; }
+        .container .page-with-sidebar .four.columns                    { width: 320px; } /* same as 3 col */
+        .container .page-with-sidebar .six.columns                     { width: 500px; }
+        .container .page-with-sidebar .eight.columns                   { width: 680px; } /* same as 6 col */
+        .container .page-with-sidebar .nine.columns                    { width: 770px; }
+        .container .page-with-sidebar .twelve.columns                  { width: 1040px; } /* same as 9 col */
+
+        /*
+
+            Styles for 1440px
+
+        */
+
+        .responsive .slider-wrapper,
+        .responsive .callout-box-wrapper,
+        .responsive .service,
+        .responsive .slogan-box-wrapper {margin-bottom: 40px;}
+
+        .responsive .page-title {height: 90px;}
+        .responsive .page-title h1 {padding-left: 40px; font-size: 26px; line-height: 90px;}
+        .responsive .page-title h1:after {
+            border-right: 90px solid transparent;
+            border-top: 90px solid transparent;
+            border-bottom: 0;
+            border-left-style:solid;
+            border-left-width:90px;
+        }
+
+        .responsive .service-icon {
+            padding-left: 25px;
+            font-size: 32px;
+            line-height: 60px;
+            width: 35px;
+            height: 60px;
+        }
+        .responsive .service-icon:after {
+            left: 60px;
+            border-right: 60px solid transparent;
+            border-top: 0;
+            border-bottom: 60px solid transparent;
+            border-left-style:solid;
+            border-left-width:60px;
+        }
+
+        .responsive .content {padding: 30px;}
+        .responsive .sidebar .widget {padding: 30px; margin-bottom: 40px;}
+
+        .responsive .project {margin-bottom: 40px;}
+        .responsive.portfolio-page .projects-wrapper {margin-bottom: 40px;}
+        .responsive .service-body h5 {padding: 0;}
+
+        .responsive .gallery-columns-2 li a img {width: 668px;height: 390px;}
+        .responsive .gallery-columns-3 li a img {width: 444px;height: 259px;}
+        .responsive .gallery-columns-4 li a img {width: 333px;height: 194px;}
+        .responsive .gallery-columns-5 li a img {width: 266px;height: 155px;}
+        .responsive .gallery-columns-6 li a img {width: 221px;height: 129px;}
+        .responsive .gallery-columns-7 li a img {width: 189px;height: 110px;}
+
+        .responsive p.comment-form-author,
+        .responsive p.comment-form-email,
+        .responsive p.comment-form-url {width: 313px;}
+        .responsive #commentform input {width: 291px;}
+        .responsive #commentform textarea {width: 958px;}
+
+        .responsive #contactform input,
+        .responsive #contactform textarea {width: 559px;}
+
+        .responsive .lp-sidebar h5,
+        .responsive .lp-description span {font-size: 14px;}
+
+        .responsive .meta-bottom span a {font-size: 14px;}
+        .responsive .post-top h1 {font-size: 24px;}
+    }
+
+/* #Bigger size 1140px
+================================================== */
+
+    /* Note: Design for a width of 1140px */
+
+    @media only screen and (min-width: 1200px) and (max-width: 1499px) {
+        .container                                  { width: 1140px; }
+        .container .column,
+        .container .columns                         { margin-left: 15px; margin-right: 15px;  }
+        .container .page-with-sidebar               { float: left; display: inline; width: 855px; }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 15px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 15px; }
+
+        .container .one.column                      { width: 65px; }
+        .container .two.columns                     { width: 160px; }
+        .container .three.columns                   { width: 255px; }
+        .container .four.columns                    { width: 350px; }
+        .container .five.columns                    { width: 445px; }
+        .container .six.columns                     { width: 540px; }
+        .container .seven.columns                   { width: 635px; }
+        .container .eight.columns                   { width: 730px; }
+        .container .nine.columns                    { width: 825px; }
+        .container .ten.columns                     { width: 920px; }
+        .container .eleven.columns                  { width: 1015px; }
+        .container .twelve.columns                  { width: 1110px; }
+
+        /* Offsets */
+        .container .offset-by-one                   { padding-left: 95px; }
+        .container .offset-by-two                   { padding-left: 190px; }
+        .container .offset-by-three                 { padding-left: 285px; }
+        .container .offset-by-four                  { padding-left: 380px; }
+        .container .offset-by-five                  { padding-left: 475px; }
+        .container .offset-by-six                   { padding-left: 570px; }
+        .container .offset-by-seven                 { padding-left: 665px; }
+        .container .offset-by-eight                 { padding-left: 760px; }
+        .container .offset-by-nine                  { padding-left: 855px; }
+        .container .offset-by-ten                   { padding-left: 950px; }
+        .container .offset-by-eleven                { padding-left: 1045px; }
+
+        /* Page with sidebar */
+        .container .page-with-sidebar .three.columns                   { width: 183px; }
+        .container .page-with-sidebar .four.columns                    { width: 255px; } /* same as 3 col */
+        .container .page-with-sidebar .six.columns                     { width: 397px; }
+        .container .page-with-sidebar .eight.columns                   { width: 540px; } /* same as 6 col */
+        .container .page-with-sidebar .nine.columns                    { width: 612px; }
+        .container .page-with-sidebar .twelve.columns                  { width: 825px; } /* same as 9 col */
+
+        /*
+
+            Styles for 1140px
+
+        */
+
+        .responsive .content {padding: 30px;}
+        .responsive .sidebar .widget {padding: 30px;margin-bottom: 30px;}
+
+        .responsive .slider-wrapper,
+        .responsive .callout-box-wrapper,
+        .responsive .service,
+        .responsive .slogan-box-wrapper {margin-bottom: 30px;}
+
+        .responsive .page-title {height: 90px;}
+        .responsive .page-title h1 {padding-left: 40px; font-size: 26px; line-height: 90px;}
+        .responsive .page-title h1:after {
+            border-right: 90px solid transparent;
+            border-top: 90px solid transparent;
+            border-bottom: 0;
+            border-left-style:solid;
+            border-left-width:90px;
+        }
+
+        .responsive .service-icon {
+            padding-left: 25px;
+            font-size: 32px;
+            line-height: 60px;
+            width: 35px;
+            height: 60px;
+        }
+        .responsive .service-icon:after {
+            left: 60px;
+            border-right: 60px solid transparent;
+            border-top: 0;
+            border-bottom: 60px solid transparent;
+            border-left-style:solid;
+            border-left-width:60px;
+        }
+
+        .responsive .service-body h5 {padding: 0 45px;}
+
+        .responsive .project {margin-bottom: 30px;}
+        .responsive.portfolio-page .projects-wrapper {margin-bottom: 30px;}
+
+        .responsive .gallery-columns-2 li a img {width: 523px;height: 305px;}
+        .responsive .gallery-columns-3 li a img {width: 348px;height: 203px;}
+        .responsive .gallery-columns-4 li a img {width: 260px;height: 152px;}
+        .responsive .gallery-columns-5 li a img {width: 208px;height: 121px;}
+        .responsive .gallery-columns-6 li a img {width: 173px;height: 101px;}
+        .responsive .gallery-columns-7 li a img {width: 148px;height: 86px;}
+
+        .responsive p.comment-form-author,
+        .responsive p.comment-form-email,
+        .responsive p.comment-form-url {width: 241px;}
+        .responsive #commentform input {width: 219px;}
+        .responsive #commentform textarea {width: 743px;}
+
+        .responsive #contactform input,
+        .responsive #contactform textarea {width: 419px;}
+
+        .responsive .lp-sidebar h5,
+        .responsive .lp-description span {font-size: 14px;}
+
+        .responsive .meta-bottom span a {font-size: 14px;}
+        .responsive .post-top h1 {font-size: 24px;}
+    }
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container                                  { width: 768px; }
+        .container .column,
+        .container .columns                         { margin-left: 10px; margin-right: 10px;  }
+        .container .page-with-sidebar               { float: left; display: inline; width: 576px; }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+
+        .container .one.column                      { width: 44px; }
+        .container .two.columns                     { width: 108px; }
+        .container .three.columns                   { width: 172px; }
+        .container .four.columns                    { width: 236px; }
+        .container .five.columns                    { width: 300px; }
+        .container .six.columns                     { width: 364px; }
+        .container .seven.columns                   { width: 428px; }
+        .container .eight.columns                   { width: 492px; }
+        .container .nine.columns                    { width: 556px; }
+        .container .ten.columns                     { width: 620px; }
+        .container .eleven.columns                  { width: 684px; }
+        .container .twelve.columns                  { width: 748px; }
+
+        /* Offsets */
+        .container .offset-by-one                   { padding-left: 64px; }
+        .container .offset-by-two                   { padding-left: 128px; }
+        .container .offset-by-three                 { padding-left: 192px; }
+        .container .offset-by-four                  { padding-left: 256px; }
+        .container .offset-by-five                  { padding-left: 320px; }
+        .container .offset-by-six                   { padding-left: 384px; }
+        .container .offset-by-seven                 { padding-left: 448px; }
+        .container .offset-by-eight                 { padding-left: 512px; }
+        .container .offset-by-nine                  { padding-left: 576px; }
+        .container .offset-by-ten                   { padding-left: 640px; }
+        .container .offset-by-eleven                { padding-left: 704px; }
+
+        /* Page with sidebar */
+        .container .page-with-sidebar .three.columns                   { width: 124px; }
+        .container .page-with-sidebar .four.columns                    { width: 172px; } /* same as 3 col */
+        .container .page-with-sidebar .six.columns                     { width: 268px; }
+        .container .page-with-sidebar .eight.columns                   { width: 364px; } /* same as 6 col */
+        .container .page-with-sidebar .nine.columns                    { width: 412px; }
+        .container .page-with-sidebar .twelve.columns                  { width: 556px; } /* same as 9 col */
+
+        /*
+
+            Styles for tablet portrait
+
+        */
+
+        .responsive .navigation-wrapper {padding: 20px 0; background: none;}
+        .responsive .navigation-wrapper .sf-menu {display: none;}
+        .responsive .navigation-wrapper select {display: block !important; width: 400px !important; margin: 0 auto;}
+
+        .responsive .flex-caption {display: none;}
+
+        .responsive .gallery-columns-2 li a img {width: 352px;height: 205px;}
+        .responsive .gallery-columns-3 li a img {width: 234px;height: 137px;}
+        .responsive .gallery-columns-4 li a img {width: 175px;height: 102px;}
+        .responsive .gallery-columns-5 li a img,
+        .responsive .gallery-columns-6 li a img,
+        .responsive .gallery-columns-7 li a img {width: 139px;height: 81px;}
+
+        .responsive .sidebar .lp-image {margin-right: 5px;}
+
+        .responsive table.responsive-table {margin-bottom: 0;}    
+        .responsive .pinned {position: absolute; left: 0; top: 0; width: 35%; overflow: hidden; overflow-x: scroll;}
+        .responsive .pinned table {border-right: none; border-left: none; width: 100%;}
+        .responsive .pinned table th,
+        .responsive .pinned table td {white-space: nowrap;}
+        .responsive .pinned td:last-child {border-bottom: 0;}
+        .responsive div.table-wrapper {position: relative; margin-bottom: 20px; overflow: hidden;}
+        .responsive div.table-wrapper div.scrollable table {margin-left: 35%;}
+        .responsive div.table-wrapper div.scrollable {overflow: scroll; overflow-y: hidden;}  
+        .responsive table.responsive-table td,
+        .responsive table.responsive-table th {position: relative; white-space: nowrap; overflow: hidden;}
+        .responsive table.responsive-table th:first-child,
+        .responsive table.responsive-table td:first-child,
+        .responsive table.responsive-table.pinned td {display: none;}
+
+        .responsive p.comment-form-author,
+        .responsive p.comment-form-email,
+        .responsive p.comment-form-url {width: 158px;}
+        .responsive #commentform input {width: 136px;}
+        .responsive #commentform textarea {width: 494px;}
+
+        .responsive #contactform input,
+        .responsive #contactform textarea {width: 259px;}
+
+        .responsive .meta-bottom .read-more {float: left;}
+
+        .responsive .accordion h3 a,
+        .responsive .toggle h3 a {font-size: 11px;}
+    }
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container { width: 420px; }
+        .columns, .column { margin: 0 0 20px; }
+        .container .page-with-sidebar { width: 420px; }
+
+        .container .one.column,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .page-with-sidebar .three.columns,
+        .container .page-with-sidebar .four.columns,
+        .container .page-with-sidebar .six.columns,
+        .container .page-with-sidebar .eight.columns,
+        .container .page-with-sidebar .nine.columns,
+        .container .page-with-sidebar .twelve.columns { width: 420px; }
+
+        .container .one_half_fluid,
+        .container .one_half_fluid.last,
+        .container .one_third_fluid,
+        .container .one_third_fluid.last,
+        .container .two_third_fluid,
+        .container .two_third_fluid.last,
+        .container .one_fourth_fluid,
+        .container .one_fourth_fluid.last,
+        .container .three_fourth_fluid,
+        .container .three_fourth_fluid.last,
+        .container .one_fifth_fluid,
+        .container .one_fifth_fluid.last,
+        .container .two_fifth_fluid,
+        .container .two_fifth_fluid.last,
+        .container .three_fifth_fluid,
+        .container .three_fifth_fluid.last,
+        .container .four_fifth_fluid,
+        .container .four_fifth_fluid.last { width: 100%; margin: 0 0 20px 0; }
+
+        /* Offsets */
+        .container .offset-by-one,
+        .container .offset-by-two,
+        .container .offset-by-three,
+        .container .offset-by-four,
+        .container .offset-by-five,
+        .container .offset-by-six,
+        .container .offset-by-seven,
+        .container .offset-by-eight,
+        .container .offset-by-nine,
+        .container .offset-by-ten,
+        .container .offset-by-eleven { padding-left: 0; }
+
+        /*
+
+            Styles for mobile landscape
+
+        */
+
+        .responsive .header {margin-bottom: 0;}
+
+        .responsive .logo a {display: block;}
+        .responsive .logo img {display: block; margin: 0 auto;}
+
+        .responsive .top-wrapper {height: auto;}
+        .responsive .top-wrapper .columns {margin-bottom: 0;}
+        .responsive .info-text {padding: 15px 0;}
+        .responsive .info-text p {line-height: 1.5em;}
+        .responsive .top-wrapper .socials ul {float: none;}
+
+        .responsive .navigation-wrapper {padding: 20px 0;background: none;}
+        .responsive .navigation-wrapper .sf-menu {display: none;}
+        .responsive .navigation-wrapper select {display: block !important; width: 420px !important; margin: 0 auto;}
+
+        .responsive .page-title h1 {
+            display: block;
+            padding: 0 30px;
+            font-size: 20px;
+            line-height: 70px;
+        }
+        .responsive .page-title h1:after {border: none;}
+
+        .responsive .flex-caption,
+        .responsive .flex-control-paging {display: none;}
+
+        .responsive .gallery-columns-2 li a img {width: 188px;height: 110px;}
+        .responsive .gallery-columns-3 li a img {width: 124px;height: 72px;}
+        .responsive .gallery-columns-4 li a img,
+        .responsive .gallery-columns-5 li a img,
+        .responsive .gallery-columns-6 li a img,
+        .responsive .gallery-columns-7 li a img {width: 93px;height: 54px;}
+
+        .responsive table.responsive-table {margin-bottom: 0;}    
+        .responsive .pinned {position: absolute; left: 0; top: 0; width: 35%; overflow: hidden; overflow-x: scroll;}
+        .responsive .pinned table {border-right: none; border-left: none; width: 100%;}
+        .responsive .pinned table th,
+        .responsive .pinned table td {white-space: nowrap;}
+        .responsive .pinned td:last-child {border-bottom: 0;}
+        .responsive div.table-wrapper {position: relative; margin-bottom: 20px; overflow: hidden;}
+        .responsive div.table-wrapper div.scrollable table {margin-left: 35%;}
+        .responsive div.table-wrapper div.scrollable {overflow: scroll; overflow-y: hidden;}  
+        .responsive table.responsive-table td,
+        .responsive table.responsive-table th {position: relative; white-space: nowrap; overflow: hidden;}
+        .responsive table.responsive-table th:first-child,
+        .responsive table.responsive-table td:first-child,
+        .responsive table.responsive-table.pinned td {display: none;}
+
+        .responsive p.comment-form-author,
+        .responsive p.comment-form-email,
+        .responsive p.comment-form-url,
+        .responsive #commentform input,
+        .responsive #commentform textarea {width: 358px;}
+
+        .responsive #contactform input,
+        .responsive #contactform textarea {width: 319px;}
+
+        .responsive .meta-bottom .read-more {float: left;}
+
+        .responsive .accordion h3 a,
+        .responsive .toggle h3 a {font-size: 11px;}
+
+        .responsive .pt-column {border: none;}
+        .responsive .pricing-3-col,
+        .responsive .pricing-4-col {width: 100%; margin-left: 0; margin-bottom: 2px;}
+
+        .responsive .testimonial-thumb {float: none; display: block;}
+        .responsive .testimonial-thumb img {text-align: center; display: block; margin: 15px auto 0;}
+        .responsive .testimonial p {padding: 15px;}
+
+        .responsive.portfolio-page-filter .page-title {height: 120px;}
+        .responsive.portfolio-page-filter .portfolio-filters-wrapper {margin: 0; left: 115px; top: 75px;}
+        .responsive.portfolio-page-filter .portfolio-filters-wrapper a.filter-button:after {right: 85px;}
+        .responsive .project-icon {width: 40px;right: 0;}
+        .responsive .project-icon:after {border: none;}
+
+    }
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 479px) {
+        .container { width: 300px; }
+        .columns, .column { margin: 0 0 20px;}
+        .container .page-with-sidebar { width: 300px; }
+
+        .container .one.column,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .page-with-sidebar .three.columns,
+        .container .page-with-sidebar .four.columns,
+        .container .page-with-sidebar .six.columns,
+        .container .page-with-sidebar .eight.columns,
+        .container .page-with-sidebar .nine.columns,
+        .container .page-with-sidebar .twelve.columns { width: 300px; }
+
+        .container .one_half_fluid,
+        .container .one_half_fluid.last,
+        .container .one_third_fluid,
+        .container .one_third_fluid.last,
+        .container .two_third_fluid,
+        .container .two_third_fluid.last,
+        .container .one_fourth_fluid,
+        .container .one_fourth_fluid.last,
+        .container .three_fourth_fluid,
+        .container .three_fourth_fluid.last,
+        .container .one_fifth_fluid,
+        .container .one_fifth_fluid.last,
+        .container .two_fifth_fluid,
+        .container .two_fifth_fluid.last,
+        .container .three_fifth_fluid,
+        .container .three_fifth_fluid.last,
+        .container .four_fifth_fluid,
+        .container .four_fifth_fluid.last { width: 100%; margin: 0 0 20px 0; }
+
+        /* Offsets */
+        .container .offset-by-one,
+        .container .offset-by-two,
+        .container .offset-by-three,
+        .container .offset-by-four,
+        .container .offset-by-five,
+        .container .offset-by-six,
+        .container .offset-by-seven,
+        .container .offset-by-eight,
+        .container .offset-by-nine,
+        .container .offset-by-ten,
+        .container .offset-by-eleven { padding-left: 0; }
+
+        /*
+
+            Styles for mobile portrait
+
+        */
+
+        .responsive .header {margin-bottom: 0;}
+
+        .responsive .logo a {display: block;}
+        .responsive .logo img {display: block; margin: 0 auto;}
+
+        .responsive .top-wrapper {height: auto;}
+        .responsive .top-wrapper .columns {margin-bottom: 0;}
+        .responsive .info-text {padding: 15px 0;}
+        .responsive .info-text p {line-height: 1.5em;}
+        .responsive .top-wrapper .socials ul {float: none;}
+
+        .responsive .navigation-wrapper {padding: 20px 0;background: none;}
+        .responsive .navigation-wrapper .sf-menu {display: none;}
+        .responsive .navigation-wrapper select {display: block !important; width: 300px !important; margin: 0 auto;}
+
+        .responsive .page-title h1 {
+            display: block;
+            padding: 0 30px;
+            font-size: 14px;
+            line-height: 70px;
+        }
+        .responsive .page-title h1:after {border: none;}
+
+        .responsive .flex-caption,
+        .responsive .flex-control-paging {display: none;}
+
+        .responsive .gallery-columns-2 li a img {width: 128px;height: 75px;}
+        .responsive .gallery-columns-3 li a img {width: 84px;height: 49px;}
+        .responsive .gallery-columns-4 li a img,
+        .responsive .gallery-columns-5 li a img,
+        .responsive .gallery-columns-6 li a img,
+        .responsive .gallery-columns-7 li a img {width: 63px;height: 37px;}
+
+        .responsive table.responsive-table {margin-bottom: 0;}    
+        .responsive .pinned {position: absolute; left: 0; top: 0; width: 35%; overflow: hidden; overflow-x: scroll;}
+        .responsive .pinned table {border-right: none; border-left: none; width: 100%;}
+        .responsive .pinned table th,
+        .responsive .pinned table td {white-space: nowrap;}
+        .responsive .pinned td:last-child {border-bottom: 0;}
+        .responsive div.table-wrapper {position: relative; margin-bottom: 20px; overflow: hidden;}
+        .responsive div.table-wrapper div.scrollable table {margin-left: 35%;}
+        .responsive div.table-wrapper div.scrollable {overflow: scroll; overflow-y: hidden;}  
+        .responsive table.responsive-table td,
+        .responsive table.responsive-table th {position: relative; white-space: nowrap; overflow: hidden;}
+        .responsive table.responsive-table th:first-child,
+        .responsive table.responsive-table td:first-child,
+        .responsive table.responsive-table.pinned td {display: none;}
+
+        .responsive p.comment-form-author,
+        .responsive p.comment-form-email,
+        .responsive p.comment-form-url,
+        .responsive #commentform input,
+        .responsive #commentform textarea {width: 238px;}
+
+        .responsive #contactform input,
+        .responsive #contactform textarea {width: 199px;}
+
+        .responsive .meta-top {float: none; display: block; clear: both; margin-bottom: 10px;}
+        .responsive .post-top h1 {padding-left: 0;}
+        .responsive .meta-bottom .read-more {float: left;}
+
+        .responsive .accordion h3 a,
+        .responsive .toggle h3 a {font-size: 11px;}
+
+        .responsive .pt-column {border: none;}
+        .responsive .pricing-3-col,
+        .responsive .pricing-4-col {width: 100%; margin-left: 0; margin-bottom: 2px;}
+
+        .responsive .testimonial-thumb {float: none; display: block;}
+        .responsive .testimonial-thumb img {text-align: center; display: block; margin: 15px auto 0;}
+        .responsive .testimonial p {padding: 15px;}
+
+        .responsive.portfolio-page-filter .portfolio-filters-wrapper {display: none;}
+
+    }

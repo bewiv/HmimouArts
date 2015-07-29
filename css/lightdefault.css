@@ -1,0 +1,539 @@
+/*-----------------------------------------------------------------------------------
+
+	Light style
+	
+----------------------------------------------------------------------------------- */
+
+/* ---------------------------- */
+/*           General
+/* ---------------------------- */
+
+body {
+	background-color: #eee;
+	color: #555;
+}
+a:hover {
+	color: #555;
+}
+.divider-line {
+	border-bottom-color: #ddd;
+}
+.gridbox {
+	background-color: #eee;
+}
+
+/* ---------------------------- */
+/*          Typography
+/* ---------------------------- */
+
+blockquote, blockquote p {
+	color: #777;
+}
+blockquote {
+	border-left-color: #ddd;
+}
+
+/* ---------------------------- */
+/*           Tables
+/* ---------------------------- */
+
+th {
+	border-top-color: #ddd;
+	border-bottom-color: #ddd;
+	color: #555;
+}
+td {
+	border-bottom-color: #e8e8e8;
+	color: #999;
+}
+tr:nth-child(2n) {
+	background-color: #fafafa;
+}
+.pinned {
+	background-color: #fff; /* must be color of content background */
+	border-right-color: #ddd;
+	border-left-color: #ddd;
+}
+div.table-wrapper {
+	border-right-color: #ddd;
+}
+
+/* ---------------------------- */
+/*        Social Icons
+/* ---------------------------- */
+
+.socials ul li {
+	border-right-color: #606060;
+}
+.socials ul li:first-child {
+	border-left-color: #606060;
+}
+.team-member-socials ul li a {
+	background-color: #bbb;
+}
+
+/* ---------------------------- */
+/*         Structure
+/* ---------------------------- */
+
+/* --------- TOP --------- */
+
+.top-wrapper {
+	background-color: #555;
+}
+.info-text {
+	color: #eee;	
+}
+.info-text a {
+	color: #fff;
+}
+
+/* --------- NAVIGATION --------- */
+
+.navigation-wrapper {
+	background-color: #fff;
+}
+.navigation-wrapper select {
+	background-color: #fff;
+	border-color: #ddd;
+}
+.sf-menu a {
+	color: #555;
+}
+.sf-menu > li a {
+	color: #555;
+}
+.sf-menu > li.homepage-icon a:hover {
+	background-color: #555555;
+}
+.sf-menu ul a {
+	background-color: #fff;
+	background-color: rgba(255,255,255,.9);
+}
+
+/* ---------------------------- */
+/*          Content
+/* ---------------------------- */
+
+.content {
+	background: #fff;
+}
+
+/* --------- SECTION TITLE --------- */
+
+.section-title {
+	background-color: #fff;
+}
+.section-title:after {
+	border-top-color: #fff;
+}
+
+/* --------- PAGE TITLE --------- */
+
+.page-title {
+	background-color: #fafafa;
+}
+
+/* --------- PROJECTS --------- */
+
+.project-text a {
+	background-color: #fff;
+}
+.project-text a:hover {
+	color: #fff;
+}
+
+/* --------- CALLOUT BOX --------- */
+
+.callout-box {
+	background-color: #fff;
+}
+
+/* --------- SLOGAN BOX --------- */
+
+.slogan-box-body {
+	background-color: #fff;
+}
+
+/* --------- SERVICES --------- */
+
+.service-body {
+	background-color: #fff;
+}
+.service-body span {
+	background: #aaa;
+}
+
+/* ---------------------------- */
+/*    UI Accordion and toggle
+/* ---------------------------- */
+
+.accordion, .toggle {
+	border-bottom-color: #ddd;
+}
+.accordion h3, .toggle h3 {
+	background-color: #fafafa;
+	border-top-color: #ddd;
+	border-left-color: #ddd;
+	border-right-color: #ddd;
+}
+.accordion h3 a, .toggle h3 a {
+	color: #888;
+	background: url(../images/acc-closed.png) 12px 12px no-repeat;
+}
+.accordion h3.ui-state-active a, .toggle h3.active a {
+	color: #555;
+	background: url(../images/acc-open.png) 12px 12px no-repeat;
+}
+.accordion h3 a:hover, .toggle h3 a:hover {
+	background: url(../images/acc-closed.png) 12px 12px no-repeat;
+}
+.accordion h3.ui-state-active a:hover, .toggle h3.active a:hover {
+	background: url(../images/acc-open.png) 12px 12px no-repeat;
+}
+.accordion h3.ui-state-active, .toggle h3.active {
+	background: #fff;
+	border-left-color: #ddd;
+	border-right-color: #ddd;
+	border-bottom-color: #ddd;
+}
+.accordion div, .toggle div {
+	border-left-color: #ddd;
+	border-right-color: #ddd;
+	background: #fff;
+}
+
+/* Tabs */
+
+.tabs ul.tabs-nav {
+	border-bottom-color: #ddd;
+}
+.tabs ul.tabs-nav li a {
+	border-color: #ddd;
+	background-color: #fafafa;
+	color: #aaa;
+}
+.tabs ul.tabs-nav li.ui-state-active a {
+	background-color: #fff;
+}
+.tabs ul.tabs-content {
+	border-color: #ddd;
+	background-color: #fff;
+}
+
+/* Vetical Tabs */
+.tabs.vertical ul.tabs-nav li a {
+	border-color: #ddd;
+	border-top-color: #ddd !important;
+}
+
+/* ---------------------------- */
+/*        Content Slider
+/* ---------------------------- */
+
+.content-slider h6 {
+	border-bottom-color: #ddd;
+}
+ul.cs-slidecontrols > li {
+	background-color: #bbb;
+}
+
+/* ---------------------------- */
+/*         Portfolio
+/* ---------------------------- */
+
+/* --------- Filter --------- */
+
+a.filter-button:after {
+	border-right-color: #fafafa;
+}
+
+/* --------- SINGLE PORTFOLIO --------- */
+
+.portfolio-details h6 span {
+	background-color: #ddd;
+}
+.portfolio-details .divider-line {
+	border-bottom-color: #ddd;
+}
+
+/* --------------------------- */
+/*        PRICING TABLES       
+/* --------------------------- */
+
+.pt-column {
+	border-color: #f2f2f2;
+}
+.pt-features ul li {
+	background-color: #fafafa;
+	border-bottom-color: #f2f2f2;
+}
+
+/* ---------------------------- */
+/*         Testimonials
+/* ---------------------------- */
+
+.testimonial {
+    border-color: #f2f2f2;
+    background: #fafafa;
+}
+.testimonial:before,
+.testimonial:after {
+	border-bottom-color: #fafafa;
+}
+.testimonial:before {
+	border-bottom-color: #f2f2f2;
+}
+
+/* ---------------------------- */
+/*            Team
+/* ---------------------------- */
+
+.team-member-description {
+	border-top-color: #ddd;	
+}
+.team-member-socials {
+	border-top-color: #ddd;
+}
+
+/* ---------------------------- */
+/*          Contact
+/* ---------------------------- */
+
+#contactform input, #contactform textarea {
+	border-color: #ccc;
+}
+#contactform input:focus, #contactform textarea:focus {
+	border-color: #777;
+}
+
+/* ---------------------------- */
+/*            Blog
+/* ---------------------------- */
+
+.post {
+	border-bottom-color: #ddd;
+}
+.meta-top {
+	color: #fff;
+}
+.meta-top .meta-date .day {
+	background-color: #777;
+}
+.meta-bottom span a {
+	background-color: #777;
+	color: #fff;
+}
+
+/* --------- Pagination --------- */
+
+.site-pagination a, .site-pagination span {
+	background-color: #f2f2f2;
+	color: #777;
+}
+.site-pagination span, .site-pagination a:hover {
+	color: #fff;
+}
+
+/* ---------------------------- */
+/*        Blog comments
+/* ---------------------------- */
+
+.commentlist ul.children {
+	border-left-color: #ddd;
+}
+.commentlist ul.children::before {
+	border-bottom-color: #ddd;
+}
+.comment-meta a {
+    color: #888;
+}
+div.comment-body {
+	border-color: #ddd;
+}
+#commentform input, #commentform textarea {
+	border-color: #ccc;
+}
+#commentform input:focus, #commentform textarea:focus {
+	border-color: #777;
+}
+#commentform p.form-allowed-tags {
+	color: #777;
+	background-color: #f8f8f8;
+}
+
+/* ---------------------------- */
+/*           Sidebar
+/* ---------------------------- */
+
+.sidebar .widget {
+	background-color: #fff;
+}
+/*-----------------------------------------------------------------------------------
+
+	Color scheme        |       Default: Primary #ff5c01, secondary #DD4F02
+	
+----------------------------------------------------------------------------------- */
+
+/* ---------------------------- */
+/*           General
+/* ---------------------------- */
+a {color: #ff5c01;}
+.highlight {background-color: #ff5c01;}
+::-moz-selection {color: #fff;}
+::-webkit-selection {color: #fff;}
+::selection {color: #fff;}
+::-moz-selection {background-color: #ff5c01;}
+::-webkit-selection {background-color: #ff5c01;}
+::selection {background-color: #ff5c01;}
+.divider-color {background-color: #ff5c01;}
+
+/* ---------------------------- */
+/*          Typography
+/* ---------------------------- */
+
+.dropcap1, .dropcap2, .dropcap3 {background-color: #ff5c01;}
+
+/* ---------------------------- */
+/*         Structure
+/* ---------------------------- */
+
+/* --------- NAVIGATION --------- */
+
+.sf-menu a:hover {color: #ff5c01;}
+.sf-menu > li.homepage-icon a {background-color: #ff5c01;}
+
+/* ---------------------------- */
+/*          Content
+/* ---------------------------- */
+
+/* --------- SECTION TITLE --------- */
+
+.section-title span {background-color: #ff5c01;}
+.section-title span:after {border-right-color: #ff5c01;}
+
+/* --------- PAGE TITLE --------- */
+
+.page-title h1 {background-color: #ff5c01;}
+.page-title h1:after {border-left-color: #ff5c01;}
+
+/* --------- PROJECTS --------- */
+
+.project-icon {background-color: #ff5c01;}
+.project-icon:after {border-left-color: #DD4F02;}
+.project-text a:hover {background-color: #ff5c01;}
+
+/* --------- CALLOUT BOX --------- */
+
+.callout-box {border-top-color: #ff5c01;}
+.callout-box:after {border-top-color: #ff5c01;}
+.callout-box h5 {color: #ff5c01;}
+
+/* --------- SLOGAN BOX --------- */
+
+.slogan-box:after {border-left-color: #ff5c01;}
+.slogan-box-body {border-left-color: #ff5c01;}
+.slogan-box h5 {color: #ff5c01;}
+
+/* --------- SERVICES --------- */
+
+.service-icon {background-color: #ff5c01;}
+.service-icon:after {border-left-color: #ff5c01;}
+
+/* ---------------------------- */
+/*    UI Accordion and toggle
+/* ---------------------------- */
+
+.accordion h3 a:hover, .toggle h3 a:hover {color: #ff5c01;}
+.accordion h3.ui-state-active a:hover, .toggle h3.active a:hover {color: #ff5c01;}
+
+/* Tabs */
+.tabs ul.tabs-nav li.ui-state-active a {border-top-color: #ff5c01; color: #ff5c01;}
+.tabs ul.tabs-nav li a:hover {color: #ff5c01;}
+
+/* Vetical Tabs */
+.tabs.vertical ul.tabs-nav li.ui-state-active a {border-left-color: #ff5c01;}
+
+/* ---------------------------- */
+/*        Content Slider
+/* ---------------------------- */
+
+.cs-slidecontrols li:hover {background-color: #ff5c01;}
+
+/* ---------------------------- */
+/*         Portfolio
+/* ---------------------------- */
+
+/* --------- Filter --------- */
+
+a.filter-button {background-color: #ff5c01;}
+#portfolio-filters a {background-color: #ff5c01;}
+#portfolio-filters a:hover {background-color: #DD4F02;}
+
+/* --------- SINGLE PORTFOLIO --------- */
+
+.portfolio-details .divider-color {background-color: #ff5c01;}
+
+/* --------------------------- */
+/*        PRICING TABLES       
+/* --------------------------- */
+
+.pt-column h3 {background: #ff5c01;}
+
+/* ---------------------------- */
+/*            Blog
+/* ---------------------------- */
+
+.meta-top .meta-date .year {background-color: #ff5c01;}
+.meta-bottom span a:hover {background-color: #ff5c01;}
+
+/* --------- Pagination --------- */
+
+.site-pagination span, .site-pagination a:hover {background-color: #ff5c01;}
+
+/* ---------------------------- */
+/*           Sidebar
+/* ---------------------------- */
+
+.lp-image:hover {border-color: #ff5c01;}
+.tagcloud a {background-color: #ff5c01;}
+
+/* ---------------------------- */
+/*           Footer
+/* ---------------------------- */
+
+.footer a:hover {color: #ff5c01;}
+.footer-bottom a:hover {color: #ff5c01;}
+
+/* ---------------------------- */
+/*         Flickr Feed
+/* ---------------------------- */
+
+#flickr_badges ul li a:hover {border-color: #ff5c01;}
+
+/* ---------------------------- */
+/*       From flexslider.css
+/* ---------------------------- */
+
+.flexslider-wrapper .flexslider .flex-next:hover {background-color: #ff5c01;}
+.flexslider-wrapper .flexslider .flex-prev:hover {background-color: #ff5c01;}
+.flex-control-paging li a:hover {background-color: #ff5c01;}
+.flex-caption {border-left-color: #ff5c01;}
+.flex-caption a {color: #ff5c01;}
+
+/* ---------------------------- */
+/*       From shortcodes.css
+/* ---------------------------- */
+
+.button, button, .wpcf7-form input[type="submit"], .portfolio-navigation div a, #commentform input#submit, #contact input#submit {background-color: #ff5c01;}
+
+/* ---------------------------- */
+/*     For responsive design
+/* ---------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.responsive .page-title h1 {background-color: #ff5c01;}
+}
+@media only screen and (max-width: 479px) {
+	.responsive .page-title h1 {background-color: #ff5c01;}
+}
